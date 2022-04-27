@@ -1,13 +1,15 @@
 <template>
-  <div class="about">
-    <h1>Philly Philly</h1>
-    <div id="map"></div>
-    <br />
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQdqy6Y7MzAl4Zby6nnQLq-JDKYQMUmn_wA&usqp=CAU"
-      alt=""
-    />
-  </div>
+  <body class="about-bg">
+    <div class="about">
+      <h1>Philly Philly</h1>
+      <div id="map"></div>
+      <br />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQdqy6Y7MzAl4Zby6nnQLq-JDKYQMUmn_wA&usqp=CAU"
+        alt=""
+      />
+    </div>
+  </body>
 </template>
 
 <script>
@@ -49,12 +51,18 @@ export default {
 };
 </script>
 
-<style>
-body {
+<style type="text/css">
+body,
+html {
   margin: 0;
   padding: 0;
   background-color: darkgreen;
+  cursor: url("http://www.rw-designer.com/icon-image/12294-24x24x8.png"), auto;
 }
+/* body,
+html :hover {
+  cursor: url("http://www.rw-designer.com/cursor-view/110939.png"), auto;
+} */
 #map {
   height: 300px;
   width: 100%;
