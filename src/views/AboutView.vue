@@ -71,4 +71,7 @@ h1 {
   font-family: cursive;
   color: silver;
 }
+img {
+  border-radius: 30%;
+}
 </style>
